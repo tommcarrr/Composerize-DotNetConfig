@@ -1,0 +1,11 @@
+      - Logging__LogLevel__Default=Debug
+      - Logging__LogLevel__Microsoft=Information
+      - Logging__LogLevel__Microsoft.Hosting.Lifetime=Information
+      - AllowedHosts=*
+      - ConnectionStrings__DefaultConnection=Server=(localdb)\mssqllocaldb;Database=aspnet-WebApp1-DEV;Trusted_Connection=True;MultipleActiveResultSets=true
+      - ServiceApi__BaseUrl=https://api.service.com/
+      - ServiceApi__Timeout=60
+      - FeatureToggles__0__Name=Feature1
+      - FeatureToggles__0__IsActive=False
+      - FeatureToggles__1__Name=Feature2
+      - FeatureToggles__1__IsActive=True
